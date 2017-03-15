@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>helo world</h1>
+{% endblock %}
+{% comment %}{% if latest_article_list %}
+    <ul>
+    {% for article in latest_article_list %}
+        <li><a href="/insideblog/{{ article.id }}/">{{ article.body }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}{% endcomment %}
