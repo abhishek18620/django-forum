@@ -1,0 +1,4 @@
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    background: url(/media/cover.jpg)
+    line-height: 1;
+}
